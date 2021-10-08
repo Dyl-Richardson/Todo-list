@@ -6,6 +6,7 @@
   "name": "todolist",
   "version": "1.0.0",
   "source": "src/index.html",
+  "homepage": "https://dyl-richardson.github.io/Todo-list/",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
