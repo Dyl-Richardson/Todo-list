@@ -33,3 +33,34 @@ body {
 #del {
   width: 36.5vw;
 }
+
+@media screen and (max-width: 900px) {
+  body {
+    padding: 0;
+  }
+
+  #task {
+    padding: 1%;
+    width: 95vw;
+  }
+
+  #date,
+  #imp,
+  #todoAdd {
+    width: 32.3vw;
+    text-align: center;
+    padding: 4px 0;
+  }
+
+  #del {
+    width: 98vw;
+  }
+
+  #taskList {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 0 7%;
+    justify-content: left;
+  }
+}
