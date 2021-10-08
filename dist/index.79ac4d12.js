@@ -468,7 +468,18 @@ delButton.addEventListener("click", (e)=>{
     _display.deleteTask();
 });
 
-},{"./function":"iaQdE","./display":"1cfLH"}],"iaQdE":[function(require,module,exports) {
+},{"./display":"1cfLH","./function":"iaQdE"}],"1cfLH":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "deleteTask", ()=>deleteTask
+);
+var _function = require("./function");
+function deleteTask() {
+    let check = document.querySelectorAll("#check:checked");
+    for(let i = 0; check.length > i; i++)document.querySelector("#check:checked").parentElement.remove();
+}
+
+},{"./function":"iaQdE","@parcel/transformer-js/src/esmodule-helpers.js":"5mJGS"}],"iaQdE":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 // add to list
@@ -522,17 +533,6 @@ exports.export = function(dest, destName, get) {
     });
 };
 
-},{}],"1cfLH":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "deleteTask", ()=>deleteTask
-);
-var _function = require("./function");
-function deleteTask() {
-    let check = document.querySelectorAll("#check:checked");
-    for(let i = 0; check.length > i; i++)document.querySelector("#check:checked").parentElement.remove();
-}
-
-},{"./function":"iaQdE","@parcel/transformer-js/src/esmodule-helpers.js":"5mJGS"}]},["lM56T","8tQox"], "8tQox", "parcelRequire94c2")
+},{}]},["lM56T","8tQox"], "8tQox", "parcelRequire94c2")
 
 //# sourceMappingURL=index.79ac4d12.js.map
