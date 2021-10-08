@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="https://www.univ-brest.fr/digitalAssets/66/66744_list.png">
+    <title>Todo List</title>
+</head>
+<body>
+    <h1> My Todo List </h1>
+    <main>
+        <input type="text" id="task" placeholder="todo task ...">
+        <section id="bellow">
+            <input type="date" id="date">
+            <select id="imp">
+                <option>Choose a importance</option>
+                <option>very high</option>
+                <option>high</option>
+                <option>medium</option>
+                <option>low</option>
+                <option>very low</option>
+            </select>
+            <button id="todoAdd">Add to list</button>
+        </section>
+        <button id="del">Remove task done :</button>
+        <section id="taskList">
+        </section>
+    </main>
+
+    <script type="module" src="js/index.js"></script>
+</body>
+</html>

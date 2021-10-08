@@ -1,0 +1,37 @@
+body {
+  text-align: center;
+  padding: 0 15%;
+  margin: auto;
+}
+
+#task {
+  padding: 1%;
+  width: 35vw;
+}
+
+#bellow {
+  display: flex;
+  justify-content: center;
+}
+
+#date,
+#imp,
+#todoAdd {
+  width: 12.1vw;
+  text-align: center;
+  padding: 4px 0;
+}
+
+#taskList {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 0 25%;
+  justify-content: left;
+}
+
+#del {
+  width: 36.5vw;
+}
+
+/*# sourceMappingURL=index.a122427b.css.map */
