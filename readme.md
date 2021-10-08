@@ -11,12 +11,12 @@ Todo list creation :
 
 ## Lien
 
-[Github page](https://dyl-richardson.github.io/Todo-list/)
+[Github page](https://dyl-richardson.github.io/Todo-list/src)
 
 ## Rendu
 
-![Rendu](images/rendu.png)
+![Rendu](src/images/rendu.png)
 
 ## Perf lighthouse
 
-![Perf](images/perf.png)
+![Perf](src/images/perf.png)
