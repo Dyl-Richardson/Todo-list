@@ -7,8 +7,6 @@ todoAdd.addEventListener("click", e => {
 })
 
     let delButton = document.querySelector("#del")
-    // add console log to see why it's not working
     delButton.addEventListener("click", e => {
-        console.log(deleteTask());
         deleteTask();
     })
