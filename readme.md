@@ -11,7 +11,7 @@ Todo list creation :
 
 ## Lien
 
-[Github page](https://dyl-richardson.github.io/Todo-list/src)
+[Github page](https://dyl-richardson.github.io/Todo-list/)
 
 ## Rendu
 
