@@ -1,18 +1,25 @@
 {
-  "devDependencies": {
-    "gh-pages": "^3.2.3",
-    "parcel": "^2.0.0-rc.0"
-  },
   "name": "todolist",
   "version": "1.0.0",
+  "description": "Todo list creation :",
   "source": "src/index.html",
-  "homepage": "https://dyl-richardson.github.io/Todo-list/",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
     "deploy": "gh-pages -d dist"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dyl-Richardson/Todo-list.git"
+  },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "bugs": {
+    "url": "https://github.com/Dyl-Richardson/Todo-list/issues"
+  },
+  "homepage": "https://github.com/Dyl-Richardson/Todo-list#readme",
+  "devDependencies": {
+    "gh-pages": "^3.2.3",
+    "parcel": "^2.0.0"
+  }
 }
