@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://dyl-richardson.github.io/test-parcel/.git"
+    "url": "git+https://dyl-richardson.github.io/Todo-list/.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://dyl-richardson.github.io/test-parcel//issues"
+    "url": "https://dyl-richardson.github.io/Todo-list/issues"
   },
-  "homepage": "https://dyl-richardson.github.io/test-parcel/",
+  "homepage": "https://dyl-richardson.github.io/Todo-list/",
   "devDependencies": {
     "gh-pages": "^3.2.3",
     "parcel": "^2.0.0"
