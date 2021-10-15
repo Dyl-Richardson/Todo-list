@@ -1,0 +1,68 @@
+body {
+  text-align: center;
+  padding: 0 15%;
+  margin: auto;
+}
+
+#task {
+  padding: 1%;
+  width: 35vw;
+}
+
+#bellow {
+  display: flex;
+  justify-content: center;
+}
+
+#date,
+#imp,
+#todoAdd {
+  width: 12.1vw;
+  text-align: center;
+  padding: 4px 0;
+}
+
+#taskList {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 0 25%;
+  justify-content: left;
+}
+
+#del {
+  width: 36.5vw;
+}
+
+@media screen and (max-width: 900px) {
+  body {
+    padding: 0;
+  }
+
+  #task {
+    padding: 1%;
+    width: 95vw;
+  }
+
+  #date,
+  #imp,
+  #todoAdd {
+    width: 32.3vw;
+    text-align: center;
+    padding: 4px 0;
+  }
+
+  #del {
+    width: 98vw;
+  }
+
+  #taskList {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 0 7%;
+    justify-content: left;
+  }
+}
+
+/*# sourceMappingURL=index.ac24343f.css.map */
